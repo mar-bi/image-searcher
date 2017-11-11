@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-color: #cde8f6;
+}
+
+h1 {
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 70%;
+}
+
+h3.title {
+  color: #98097a;
+  margin: 8px 0;
+}
+
+p {
+  margin: 8px 20px;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 1.2em;
+  background-color: #f8f0f2;
+  color: #333;
+}

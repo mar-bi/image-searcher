@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Image Searcher Microservice
+      </h1>
+    </header>
+
+    <main>
+      <h3 class="title">
+        User Stories
+      </h3>
+      <ol>
+        <li>I can get the image URLs, alt text, and page URLs for a set of images
+          relating to a given search string.
+        </li>
+        <li>I can pagginate through the responses by adding a
+          <span class="code">?offset=2</span> parameter to the URL.
+        </li>
+        <li>I can get a list of the most recently submitted strings.</li>
+      </ol>
+
+      <div>
+        <div>
+          <h3 class="title">
+            How to use
+          </h3>
+          <ul>
+            <li>Search: <br>
+              <span class="code">
+                http://something-fancy.glitch.me/api/imagesearch/funny%20bears?offset=4
+              </span> <br>
+              <span class="code">
+                https://azure-mile.glitch.me/api/imagesearch/crazy mice
+              </span>
+            </li>
+            <li> Retrive the search history: <br>
+              <span class="code">
+                https://azure-mile.glitch.me/api/latest/
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </main>
+  </body>
+</html>
