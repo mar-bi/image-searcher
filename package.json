@@ -1,0 +1,29 @@
+{  
+  "name": "image-searcher",
+  "version": "1.0.0",
+  "description": "A NodeJS, Express, and MongoDB Image Search Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mar-bi/image-searcher.git"
+  },
+  "author": "Marina Biletska",
+  "license": "MIT",
+  "keywords": [
+    "image-searcher",
+    "node",
+    "express",
+    "MongoDB"
+  ]
+}
